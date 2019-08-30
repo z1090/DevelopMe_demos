@@ -1,0 +1,80 @@
+$btn-icon-size: 1rem;
+
+
+.fnt-a {
+    position: relative;
+    top: -0.12em;
+    margin-bottom: -0.12em;
+}
+
+.icon-btn {
+    display: inline-block;
+
+    padding: 0.75em;
+
+
+    color: $text;
+    background-color: $brand-color-2;
+    border: none;
+    border-radius: 50%;
+    font-size: $btn-icon-size;
+    
+    cursor: pointer;
+    outline: none;
+}
+
+.inner-icon-btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    height: 1em;
+    width: 1em;
+}
+
+.icon-btn + .icon-btn {
+    margin-left: 0.75em;
+}
+
+.fa-facebook-f {
+    position: relative;
+    left: -0.025em;
+}
+
+ .fa-twitter {
+    position: relative;
+    top: 0.016em;
+    left: 0.016em;
+}
+
+.yt-icon {
+    fill: $text;
+}
+
+.search-btn {
+    position: relative;
+    top: -0.2em;
+}
+
+.inner-icon-btn .fa-search {
+    font-size: 0.8em;
+    position: relative;
+    top: 0.25em;
+}
+
+
+
+.icon-btn:hover {
+    color: $background;
+    background-color: $brand-color-1;
+    
+    i {
+        color: $background;
+    }
+    
+    .yt-icon {
+            fill: $background;
+        }
+    
+    transition: all 0.2s ease-in;
+}

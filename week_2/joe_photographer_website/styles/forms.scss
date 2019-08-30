@@ -1,0 +1,35 @@
+.contact-header {
+    background-color: $brand-color-2;
+}
+
+
+
+.form-control {
+    outline: none;
+    width: 100%;
+    
+}
+
+.form-control + .form-control {
+    margin-top: 2em;
+}
+
+.form-control, .form-control label {
+    display: block;
+}
+
+.form-control input, .form-control textarea {
+    width: 100%;
+    
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid $form-outline;
+    outline: none;
+    box-sizing:border-box;
+}
+
+
+.form-control textarea {
+    height: 16em;
+    resize: none;
+}

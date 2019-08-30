@@ -1,0 +1,36 @@
+
+footer {
+    margin-top: 8em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.footer-icons-container {
+    display: inline-block;
+}
+
+.icon-btn + .icon-btn {
+    margin-left: 0.75em;
+}
+
+@media only screen and (max-width: 1000px){
+    footer {
+        margin-top: 4em;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    footer {
+        margin-top: 3em;
+    }
+}
+
+//.yt-container {
+//    padding-top: $standard-padding - 0.15em;
+//}
+
+//.yt-icon {
+//    position: relative;
+//    top: 0.125em;
+//    fill: $text;
+//}

@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "Nunito-regular";
+    src: url("../assets/fonts/Nunito/Nunito-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: "Poppins-bold";
+    src: url("../assets/fonts/Poppins/Poppins-bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Poppins-semibold";
+    src: url("../assets/fonts/Poppins/Poppins-semibold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+
+%body-font {
+    font-family: "Nunito-regular";
+}
+
+%display-font {
+    font-family: "Poppins-bold";
+}
+
+%h1-font {
+    font-family: "Poppins-semibold";
+}
+
+
+body {
+    @extend %body-font;
+    color: $text;
+}
+
+p {
+   line-height: 1.75em; 
+}
+
+
+
+.logo-type {
+    @extend %display-font;
+}
+
+
+h1{
+    @extend %h1-font;
+    font-size: 3em;
+    color: $header-txt;
+    padding: 9vw 0.5em;
+    
+    span:first-child{
+        color: $brand-color-1;
+    }
+    
+    span:nth-child(3) {
+        font-family: "Times New Roman", "Times", serif;
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 1.2em;
+        letter-spacing: 0em;
+        color: $brand-color-3;
+    }
+}
+
+.hero h1 {
+    font-size: 6vw;
+    letter-spacing: 0.03em;
+    color: $background;
+}
+
+
+h6 {
+    display: inline-block;
+    
+    padding: 0em 0.3em;
+   line-height: 1.75em; 
+    
+    background: $brand-color-3;
+    color: $background;
+}
+
+h5 {
+    @extend %h1-font;
+    color: $background;
+    
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+}
+
+h3 {
+    @extend %h1-font;
+    font-size: 1.05em;
+    letter-spacing: 0.03em;
+    color: $header-txt;
+    margin: 2.5em 0 0.5em 0;
+}
+
+section:first-of-type h3{
+    margin-top: 0;
+}
+
+
+
+h4 {
+    @extend %h1-font;
+    font-size: 1.5em;
+    letter-spacing: 0.03em;
+    color: $header-txt;
+    margin: 1.5em 0 0.5em 0;
+}
+
+.cont-reading, .date-line {
+    color: $alt-text;
+}
+
+.date-line {
+    font-size: 0.9em;
+}
+
+.cont-reading {
+    text-decoration: underline;
+    margin-bottom: 4em;
+}
+
+
+li {
+    list-style: disc;
+    margin-left: 1em;
+    line-height: 1.75em;
+}
+
+
+@media only screen and (max-width: 1000px){
+    h1{
+        font-size: 2.5em;
+    }
+    
+    .hero h1 {
+        font-size: 4vw;
+        
+        margin-left: 3.1%;
+        
+        span:nth-child(3) {
+            font-size: 0.97em;
+        }
+    }   
+}
+
+@media only screen and (max-width: 550px){
+    h1{
+        font-size: 1.75em;
+    }
+}
+
+
+
+
+
+

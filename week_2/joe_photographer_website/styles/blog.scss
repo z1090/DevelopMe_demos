@@ -1,0 +1,45 @@
+.blog-container {
+    text-align: center;
+    
+    figure{
+        margin-bottom: 2em;
+    }
+}
+
+.blog-post-main {
+    figure {
+        margin-bottom: 3em;
+    } 
+    
+    .date-line  {
+        margin-bottom: 3em;
+    }
+    
+    h6 {
+        margin-top: 3em;
+    }
+}
+
+.blog-search-container {
+    display: flex;
+    align-items: stretch;
+    
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.blog-search-box {
+    display: inline-block;
+    flex: 1;
+    top: 0;
+    z-index: 0;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: $brand-color-1;
+    color: $background;
+    margin: 0;
+//    padding: 1em;
+//    padding-top: 1.2em;
+}

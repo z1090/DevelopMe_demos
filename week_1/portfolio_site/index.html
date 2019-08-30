@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>My Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Kurale|Open+Sans" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header class="main-header">
+            <h1>My Portfolio</h1>
+            <div id="hamburger-nav" class="hamburger-nav">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
+            <div id="nav-container" class="nav-container hide-nav">
+                <nav>
+                    <ul>
+                        <li class="btn nav-btn nav-active"><a href="#">Home</a></li>
+                        <li class="btn nav-btn"><a href="#about-header">About</a></li>
+                        <li class="btn nav-btn"><a href="#work-header">Work</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <article id="about-header" class="about-article">
+            <header>
+                <h2 >About</h2>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, asperiores sunt illum mollitia temporibus fugit quia, consequuntur saepe molestias nobis velit, cupiditate illo. Aut, nihil tempore. Excepturi doloribus sit qui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla doloribus provident assumenda recusandae necessitatibus asperiores, mollitia ut adipisci, amet expedita quo, dolores quibusdam esse nihil facere rerum. Asperiores, at!</p>
+            <p><a href="#">More...</a></p>
+        </article>
+        
+        <article id="work-header" class="work-article">
+            <header>
+                <h2>Recent Work</h2>
+            </header>
+            <button class="btn work-btn">See More &gt;</button>
+            <div class="work-container">
+                <figure class="work-box">
+                    <div class="work-box-overlay"></div>
+                    <img src="images/thumbnail_1.png" alt="thumbnail 1" />
+                    <figcaption class="thumbnail-title">
+                           Camp Nothing
+                    </figcaption>
+                </figure>
+                <figure class="work-box">
+                    <div class="work-box-overlay"></div>
+                    <img src="images/thumbnail_2.png" alt="thumbnail 2" />
+                    <figcaption class="thumbnail-title">
+                           Thumbnail 2
+                    </figcaption>
+                </figure>
+                <figure class="work-box">
+                    <div class="work-box-overlay"></div>
+                    <img src="images/thumbnail_3.png" alt="thumbnail 3" />
+                    <figcaption class="thumbnail-title">
+                           Thumbnail 3
+                    </figcaption>
+                </figure>
+                <figure class="work-box">
+                    <div class="work-box-overlay"></div>                       <img src="images/thumbnail_4.png" alt="thumbnail 4" />
+                    <figcaption class="thumbnail-title">
+                           Thumbnail 4
+                    </figcaption>
+                </figure>
+                <figure class="work-box second-row">
+                    <div class="work-box-overlay"></div>
+                    <img src="images/thumbnail_5.png" alt="thumbnail 5" />
+                    <figcaption class="thumbnail-title">
+                           Thumbnail 5
+                    </figcaption>
+                </figure>
+                <figure class="work-box second-row">
+                    <div class="work-box-overlay"></div>
+                    <img src="images/thumbnail_6.png" alt="thumbnail 6" />
+                    <figcaption class="thumbnail-title">
+                           Thumbnail 6
+                    </figcaption>
+                </figure>
+                <figure class="work-box second-row">
+                    <div class="work-box-overlay"></div>
+                        <img src="images/thumbnail_7.png" alt="thumbnail 7" />
+                    <figcaption class="thumbnail-title">
+                           Thumbnail 7
+                    </figcaption>
+                </figure>
+                <figure class="work-box second-row">
+                    <div class="work-box-overlay"></div>
+                        <img src="images/thumbnail_8.png" alt="thumbnail 8" />
+                    <figcaption class="thumbnail-title">
+                           Thumbnail 8
+                    </figcaption>
+                </figure>
+            </div>
+        </article>
+        
+        <article class="contact-article">
+            <header>
+                <h2>Get In Touch</h2>
+                <p>You can <a href="mailto:ian.wildsmith@gmai.com">email me here</a>, or fill out the form below</p>
+            </header>
+            
+            <form action="" method="POST">
+                <div class="form-container">
+                    <div class="form-inputs">
+                        <div class="form-box name-box">
+                            <label for="name">Name</label>
+                            <input id="name" class="form-control" type="text" name="name" placeholder="Joe Bloggs" />
+                        </div>
+
+                        <div class="form-box email-box">
+                            <label for="email">Email</label>
+                            <input id="email" class="form-control" type="email" name="email" placeholder="something@somewhere.com" />
+                        </div>
+                    </div>
+
+                    <div class="form-box message-box">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" name="message" rows="4"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn send-btn">Send</button>
+            </form>
+        </article>
+        
+        <footer>
+            <p>Site Designed by Ruth John &copy; 2017</p>
+        </footer>
+        
+    </div>
+    
+    
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
